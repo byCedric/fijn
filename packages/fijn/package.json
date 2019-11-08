@@ -1,0 +1,28 @@
+{
+	"name": "fijn",
+	"version": "0.0.0",
+	"description": "Peakfijn's styled system",
+	"keywords": [
+		"peakfijn",
+		"styled",
+		"system"
+	],
+	"author": "Cedric van Putten <cedric@peakfijn.nl>",
+	"license": "MIT",
+	"homepage": "https://github.com/peakfijn/fijn/tree/develop/packages/fijn#readme",
+	"bugs": {
+		"url": "https://github.com/peakfijn/fijn/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/peakfijn/fijn.git"
+	},
+	"directories": {
+		"lib": "src",
+		"tests": "tests"
+	},
+	"main": "build/index.js",
+	"files": [
+		"build"
+	]
+}
