@@ -1,0 +1,37 @@
+{
+	"name": "@fijn/layout",
+	"version": "0.0.0",
+	"description": "Peakfijn's styled system",
+	"keywords": [
+		"peakfijn",
+		"styled",
+		"system"
+	],
+	"author": "Cedric van Putten <cedric@peakfijn.nl>",
+	"license": "MIT",
+	"homepage": "https://github.com/peakfijn/fijn/tree/develop/packages/layout#readme",
+	"bugs": {
+		"url": "https://github.com/peakfijn/fijn/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/peakfijn/fijn.git"
+	},
+	"directories": {
+		"lib": "src",
+		"tests": "tests"
+	},
+	"main": "build/index.js",
+	"files": [
+		"build"
+	],
+	"dependencies": {
+		"@fijn/core": "0.0.0"
+	},
+	"devDependencies": {
+		"@testing-library/react": "^9.3.2",
+		"react": "^16.11.0",
+		"styled-components": "^4.4.1",
+		"styled-system": "^5.1.2"
+	}
+}
