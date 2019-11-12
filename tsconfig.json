@@ -7,7 +7,8 @@
 	},
 	"references": [
 		{ "path": "packages/core" },
+		{ "path": "packages/layout" },
+		{ "path": "packages/typography" },
 		{ "path": "packages/fijn" },
-		{ "path": "packages/layout" }
 	]
 }
