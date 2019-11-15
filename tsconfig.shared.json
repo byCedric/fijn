@@ -14,6 +14,10 @@
 		"sourceMap": true,
 		"target": "es5"
 	},
+	"include": [
+		"packages/**/*",
+		"./*"
+	],
 	"exclude": [
 		"node_modules"
 	]

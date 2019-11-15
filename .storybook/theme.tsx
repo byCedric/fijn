@@ -1,12 +1,15 @@
 import React from 'react';
-
-// TODO: Import this from core instead of using this placeholder
-const ThemeProvider = (props) => (<>{props.children}</>);
+import { ThemeProvider } from '../packages/core';
+import { Box } from '../packages/layout';
 
 export const themeDecorator = (
 	theme => (
 		storyFunction => (
-			<ThemeProvider theme={theme}>{storyFunction()}</ThemeProvider>
+			<ThemeProvider theme={theme}>
+				<Box variant='root'>
+					{storyFunction()}
+				</Box>
+			</ThemeProvider>
 		)
 	)
 );

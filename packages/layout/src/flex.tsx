@@ -1,6 +1,8 @@
 import { variant, VariantProps, StyleObject } from '@fijn/core';
 import styled from 'styled-components';
 import {
+	color,
+	ColorProps,
 	flexbox,
 	FlexboxProps,
 	layout,
@@ -11,6 +13,7 @@ import {
 
 export const Flex = styled.div<FlexProps>`
 	${variant}
+	${color}
 	${flexbox}
 	${layout}
 	${space}
@@ -21,7 +24,7 @@ Flex.defaultProps = {
 	variant: 'flex',
 };
 
-export interface FlexProps extends FlexboxProps, LayoutProps, SpaceProps, VariantProps {
+export interface FlexProps extends ColorProps, FlexboxProps, LayoutProps, SpaceProps, VariantProps {
 	//
 }
 
