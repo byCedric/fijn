@@ -9,6 +9,7 @@
 		{ "path": "packages/core" },
 		{ "path": "packages/layout" },
 		{ "path": "packages/typography" },
+		{ "path": "packages/button" },
 		{ "path": "packages/fijn" },
 	]
 }

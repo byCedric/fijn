@@ -1,0 +1,36 @@
+{
+	"name": "@fijn/button",
+	"version": "0.0.0",
+	"description": "Peakfijn's styled system",
+	"keywords": [
+		"peakfijn",
+		"styled",
+		"system"
+	],
+	"author": "Cedric van Putten <cedric@peakfijn.nl>",
+	"license": "MIT",
+	"homepage": "https://github.com/peakfijn/fijn/tree/develop/packages/core#readme",
+	"bugs": {
+		"url": "https://github.com/peakfijn/fijn/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/peakfijn/fijn.git"
+	},
+	"directories": {
+		"lib": "src",
+		"tests": "tests"
+	},
+	"main": "build/index.js",
+	"files": [
+		"build"
+	],
+	"dependencies": {
+		"@fijn/core": "0.0.0"
+	},
+	"devDependencies": {
+		"@fijn/layout": "0.0.0",
+		"@testing-library/react": "^9.3.2",
+		"react": "^16.11.0"
+	}
+}
