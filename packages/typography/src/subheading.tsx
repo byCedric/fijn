@@ -2,16 +2,15 @@ import { StyleObject } from '@fijn/core';
 import styled from 'styled-components';
 import { typography, TypographyProps } from './typography';
 
-export const Caption = styled.span<TypographyProps>`
+export const Subheading = styled.span<TypographyProps>`
 	${typography}
 `;
 
-Caption.defaultProps = {
+Subheading.defaultProps = {
 	vx: 'typography',
-	variant: 'caption',
+	variant: 'subheading',
 };
 
-export const captionStyle: StyleObject = {
-	display: 'block',
-	textAlign: 'center',
+export const subheadingStyle: StyleObject = {
+	//
 };

@@ -1,8 +1,10 @@
 import { captionStyle } from './caption';
 import { headingStyle } from './heading';
 import { linkStyle } from './link';
+import { overlineStyle } from './overline';
 import { paragraphStyle } from './paragraph';
 import { textStyle } from './text';
+import { subheadingStyle } from './subheading';
 
 export const theme = {
 	typography: {
@@ -17,7 +19,9 @@ export const theme = {
 			6: { variant: 'typography.heading' },
 		},
 		link: linkStyle,
+		overline: overlineStyle,
 		paragraph: paragraphStyle,
 		text: textStyle,
+		subheading: subheadingStyle,
 	},
 };
