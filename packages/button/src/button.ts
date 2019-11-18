@@ -27,12 +27,18 @@ export interface ButtonProps extends BorderProps, ColorProps, LayoutProps, Space
 export const buttonBaseStyle: StyleObject = {
 	appearance: 'none',
 	backgroundColor: 'transparent',
+	border: 'button',
 	borderColor: 'transparent',
 	borderRadius: 'button',
+	display: 'inline-block',
+	cursor: 'pointer',
+	fontFamily: 'button',
 	fontSize: 1,
 	fontWeight: 'button',
 	letterSpacing: '0.05em',
 	outline: 'none',
 	paddingX: 3,
 	paddingY: 2,
+	textTransform: 'uppercase',
+	textDecoration: 'none',
 };
